@@ -1,19 +1,19 @@
 camera_config:
   original_image:
-    img_head_topic: '/camera_f/color/image_raw'
+    img_head_topic: '/camera_h/color/image_raw'
     img_left_topic: '/camera_l/color/image_raw'
     img_right_topic: '/camera_r/color/image_raw'
 
-    img_head_depth_topic: '/camera_f/depth/image_rect_raw'
+    img_head_depth_topic: '/camera_h/depth/image_rect_raw'
     img_left_depth_topic: '/camera_l/depth/image_rect_raw'
     img_right_depth_topic: '/camera_r/depth/image_rect_raw'
 
   compress_image:
-    img_head_topic: '/camera_f/color/image_raw/compressed'
+    img_head_topic: '/camera_h/color/image_raw/compressed'
     img_left_topic: '/camera_l/color/image_raw/compressed'
     img_right_topic: '/camera_r/color/image_raw/compressed'
 
-    img_head_depth_topic: '/camera_f/depth/image_rect_raw/compressed'
+    img_head_depth_topic: '/camera_h/depth/image_rect_raw/compressed'
     img_left_depth_topic: '/camera_l/depth/image_rect_raw/compressed'
     img_right_depth_topic: '/camera_r/depth/image_rect_raw/compressed'
 
