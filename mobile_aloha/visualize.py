@@ -84,7 +84,6 @@ def main(args):
         dataset_dir = Path.joinpath(ROOT, args['datasets'])
 
     episode_idx = args['episode_idx']
-    robot = args['robot']
     dataset_name = f'episode_{episode_idx}'
 
     STATE_NAMES = JOINT_NAMES + ["gripper"]
