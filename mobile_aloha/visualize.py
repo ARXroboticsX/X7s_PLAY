@@ -24,7 +24,7 @@ DT = 0.01
 JOINT_NAMES = ["joint0", "joint1", "joint2", "joint3", "joint4", "joint5", "joint6"]
 STATE_NAMES = JOINT_NAMES + ["gripper"]
 
-POSE_NAMES = ["x", "y", "z", "roll", "pich", "roll", "gripper", ]
+POSE_NAMES = ["x", "y", "z", "roll", "pitch", "yaw", "gripper", ]
 BASE_STATE_NAMES = ["Dx", "Dy", "Dz", "height", "head_pitch", "head_yaw"]  # "base_chx", "base_chy", "base_chz"
 is_compressed = False
 
