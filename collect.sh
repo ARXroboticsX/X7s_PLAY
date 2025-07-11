@@ -21,15 +21,11 @@ check_executable() {
     fi
 }
 
-check_path "${workspace}/X7s/00-sh/ROS"
 check_path "${workspace}/X7s_PLAY/realsense_camera"
 check_path "${workspace}/X7s_PLAY/mobile_aloha"
 
-check_executable "${workspace}/X7s/00-sh/ROS/remote_X7s.sh"
 check_executable "${workspace}/X7s_PLAY/realsense_camera/realsense.sh"
 
-gnome-terminal --title="x7" -- bash -c "cd ${workspace}/X7s/00-sh/ROS; bash remote_X7s.sh; exec bash"
-sleep 1
 gnome-terminal --title="realsense" -- bash -c "cd ${workspace}/X7s_PLAY/realsense_camera; bash realsense.sh; exec bash"
 sleep 1
 gnome-terminal --title="collect" -- bash -c "cd ${workspace}/X7s_PLAY/mobile_aloha/; source ./venv/bin/activate; \
